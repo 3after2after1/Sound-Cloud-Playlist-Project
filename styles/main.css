@@ -1,0 +1,110 @@
+/* CURRENTLY IN: styles/main.css */
+html, body {
+	height: 100%;
+	width: 100%;
+	min-height: 100%;
+}
+
+#soundcloud-player .col {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+#soundcloud-player .col-left {
+	width: 25%;
+	height: 100%;
+	background-color: #292929;
+	overflow: auto;
+
+	position: fixed;
+	left: 0;
+	top: 0;
+
+	min-width: 200px;
+	z-index: 1;
+}
+
+#soundcloud-player .col-right {
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+
+	position: fixed;
+	left: 0;
+	top: 0;
+
+	box-sizing: border-box;
+	padding-left: 30%;
+}
+
+#soundcloud-player .main {
+	box-sizing: border-box;
+	padding: 30px;
+	margin: 30px;
+}
+
+#soundcloud-player .input {
+	width: 100%;
+}
+
+#soundcloud-player .input-search {
+	width: 80%;
+	display: block;
+}
+
+#soundcloud-player .search.icon {
+	pointer-events: initial;
+	cursor: pointer;
+}
+
+#soundcloud-player .search-results {
+	justify-content: center;
+    margin-top: 30px;
+}
+
+
+#soundcloud-player .image_img {
+	height: 200;
+	width: 200;
+	
+}
+
+#soundcloud-player .card {
+	float: left;
+	padding-right: 50px;
+	padding-bottom: 50px;
+			
+}
+
+#soundcloud-player .header {
+	width: 200;
+	border: #292929;
+	
+}
+
+
+#soundcloud-player .js-button {
+	background-color: dimgray;	
+}
+
+
+#soundcloud-player .plus {
+	color: black;
+	text-decoration-color: black;
+}
+
+
+#soundcloud-player .container-button {
+	/* width: 20%; */
+	display: inline-block;
+	/* padding: 50px; */
+	background-color: green;
+	color: white;
+	font-size: 14px;
+	font-family: Helvetica, sans-serif;
+	border: 2px solid black;
+	border-radius: 20px;
+} 
